@@ -4,7 +4,7 @@ import axios from 'axios';
 const AuthContext = createContext();
 
 // Configure axios with base URL for API
-axios.defaults.baseURL = 'http://localhost:5000/api';
+axios.defaults.baseURL = 'https://abcde-assignment-lfpx.onrender.com/api';
 
 export const useAuth = () => useContext(AuthContext);
 
